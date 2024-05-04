@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Contato</title>
+    <title>Dados de pessoas necessitadas em nossa cidade - Capelinha</title>
 </head>
 <body>
 
@@ -21,6 +21,12 @@
 
     <label for="necessidade">Necessidade:</label><br>
     <input type="text" id="necessidade" name="Necessidade" required><br><br>
+
+    <label for="prioridade">A pessoa deve ser prioridade devido à alta necessidade?</label><br>
+    <select id="prioridade" name="Prioridade">
+        <option value="Sim">Sim</option>
+        <option value="Não">Não</option>
+    </select><br><br>
 
     <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
     <input type="submit" value="Enviar">
